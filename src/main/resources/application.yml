@@ -63,7 +63,8 @@ eureka:
     hostname: localhost
   client:
     serviceUrl:
-      defaultZone : http://localhost:8761/eureka/ 
+      defaultZone : https://zed-register-eureka-server-3e07ae708abe.herokuapp.com/eureka/
+      #defaultZone : http://localhost:8761/eureka/ 
       
 # CF UAA setting  
 #uaa:
