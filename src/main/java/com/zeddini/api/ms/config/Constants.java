@@ -27,8 +27,11 @@ public final class Constants {
     //	 URL Rest to invocate
     //    public static final String URL_MS_ORDER = "http://order-service/client/";
 
-    public static final String  CLIENT_API_URL_BASE = "http://localhost:9090";
-    public static final String  CLIENT_API_URL = "http://localhost:9090/api/clients/";
+//    public static final String  CLIENT_API_URL_BASE = "http://localhost:9090";
+//    public static final String  CLIENT_API_URL = "http://localhost:9090/api/clients/";
+    
+    public static final String  CLIENT_API_URL_BASE = "https://zed-order-service-cd54f752cf9a.herokuapp.com";
+    public static final String  CLIENT_API_URL = "https://zed-order-service-cd54f752cf9a.herokuapp.com/api/clients/";
 
     // Regex for acceptable logins
     public static final String LOGIN_REGEX = "^(?>[a-zA-Z0-9!$&*+=?^_`{|}~.-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*)|(?>[_.@A-Za-z0-9-]+)$";
